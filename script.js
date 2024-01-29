@@ -34,6 +34,7 @@ function copyPw(e){
     document.execCommand("copy");
     textArea.remove();
   }
+  alert('Password copied to clipboard');
 }
 
 function generatePw(e){
